@@ -1163,8 +1163,8 @@ with gr.Blocks() as app:
                 )
                 if_f0_3 = gr.Radio(
                     label=i18n("模型是否带音高指导(唱歌一定要, 语音可以不要)"),
-                    choices=["是", "否"],
-                    value="是",
+                    choices=["Si", "No"],
+                    value="Si",
                     interactive=True,
                 )
             with gr.Group():  # 暂时单人的, 后面支持最多4人的#数据处理
