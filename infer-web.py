@@ -1008,7 +1008,7 @@ with gr.Blocks() as app:
                         )
                         input_audio0 = gr.Textbox(
                             label=i18n("输入待处理音频文件路径(默认是正确格式示例)"),
-                            value="E:\\codes\\py39\\vits_vc_gpu_train\\todo-songs\\冬之花clip1.wav",
+                            value="E:\\codes\\py39\\vits_vc_gpu_train\\todo-songs\\clip1.wav",
                         )
                         f0method0 = gr.Radio(
                             label=i18n("选择音高提取算法,输入歌声可用pm提速,harvest低音好但巨慢无比"),
@@ -1030,7 +1030,7 @@ with gr.Blocks() as app:
                         index_rate1 = gr.Slider(
                             minimum=0,
                             maximum=1,
-                            label="检索特征占比",
+                            label="Relación de características de recuperación",
                             value=0.6,
                             interactive=True,
                         )
@@ -1175,7 +1175,7 @@ with gr.Blocks() as app:
                 )
                 with gr.Row():
                     trainset_dir4 = gr.Textbox(
-                        label=i18n("输入训练文件夹路径"), value="E:\\语音音频+标注\\米津玄师\\src"
+                        label=i18n("输入训练文件夹路径"), value="E:\\Voz Audio + Anotación\\ruta\\src"
                     )
                     spk_id5 = gr.Slider(
                         minimum=0,
@@ -1247,22 +1247,22 @@ with gr.Blocks() as app:
                         minimum=0,
                         maximum=32,
                         step=1,
-                        label="每张显卡的batch_size",
+                        label="Tamaño_lote por tarjeta gráfica",
                         value=4,
                         interactive=True,
                     )
                     if_save_latest13 = gr.Radio(
                         label=i18n("是否仅保存最新的ckpt文件以节省硬盘空间"),
-                        choices=["是", "否"],
-                        value="否",
+                        choices=["Si", "No"],
+                        value="No",
                         interactive=True,
                     )
                     if_cache_gpu17 = gr.Radio(
                         label=i18n(
                             "是否缓存所有训练集至显存. 10min以下小数据可缓存以加速训练, 大数据缓存会炸显存也加不了多少速"
                         ),
-                        choices=["是", "否"],
-                        value="是",
+                        choices=["Si", "No"],
+                        value="Si",
                         interactive=True,
                     )
                 with gr.Row():
@@ -1357,8 +1357,8 @@ with gr.Blocks() as app:
                     )
                     if_f0_ = gr.Radio(
                         label=i18n("模型是否带音高指导"),
-                        choices=["是", "否"],
-                        value="是",
+                        choices=["Si", "No"],
+                        value="Si",
                         interactive=True,
                     )
                     info__ = gr.Textbox(
