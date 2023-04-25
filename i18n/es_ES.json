@@ -58,6 +58,7 @@
     "A模型权重": "Un peso modelo para el modelo A.",
     "模型是否带音高指导": "Si el modelo tiene guía de tono.",
     "要置入的模型信息": "Información del modelo a colocar.",
+    "Onnx导出": "Exportación Onnx",
     "保存的模型名不带后缀": "Nombre del modelo guardado sin extensión.",
     "融合": "Fusión.",
     "修改模型信息(仅支持weights文件夹下提取的小模型文件)": "Modificar la información del modelo (solo admite archivos de modelos pequeños extraídos en la carpeta de pesos).",
