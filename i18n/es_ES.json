@@ -18,6 +18,7 @@
     "Onnx输出路径": "Ruta de salida Onnx",
     "RVC模型路径": "Ruta del modelo RVC",
     "输出信息": "Información de salida",
+     "Onnx导出":"Exportación Onnx",
     "输出音频(右下角三个点,点了可以下载)": "Salida de audio (haga clic en los tres puntos en la esquina inferior derecha para descargar)",
     "批量转换, 输入待转换音频文件夹, 或上传多个音频文件, 在指定文件夹(默认opt)下输出转换的音频. ": "Conversión por lotes, ingrese la carpeta que contiene los archivos de audio para convertir o cargue varios archivos de audio. El audio convertido se emitirá en la carpeta especificada (opción predeterminada).",
     "指定输出文件夹": "Especificar carpeta de salida",
